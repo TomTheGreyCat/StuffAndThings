@@ -20,7 +20,9 @@ The output will be a file named redgate.code-snippets, placed by default in
 
     C:\Users\Developer\AppData\Roaming\azuredatastudio\User\snippets
 
-if the folder isn't found it will be used c:\temp\
+If the folder isn't found it will be used c:\temp\
+  
+**The script will override any previous file with the same output name and extension**
 
 Additional parameters:
 
