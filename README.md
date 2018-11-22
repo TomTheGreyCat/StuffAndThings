@@ -10,9 +10,15 @@ It seemed a waste to not use all the nice snippets of the SQL Prompt in Azure Da
 
 Basic Usage:
 
-    RedgateSnippetsToJsonAzureDataStudio.ps1 -username _Developer_
+    RedgateSnippetsToJsonAzureDataStudio.ps1
 
-The username parameter is mandatory, is used to search inside the directory
+Additional parameters:
+
+* -snippetsfolder: allows to specify the folder that contains the snippets
+* -outputfolder: allows to specify the folder in which the .code-snippets will be placed
+* -username: allows to specify a different username
+
+The username parameter is optional, the default is the username of the current user; given a username _Developer_, the scripts will search inside the directory
 
     C:\Users\Developer\AppData\Local\Red Gate\SQL Prompt 9\Snippets
 
@@ -23,7 +29,3 @@ The output will be a file named **redgate.code-snippets**, placed by default in
 If the folder isn't found it will be used c:\temp\
 **The script will override any previously created file with the same name and extension**
 
-Additional parameters:
-
-* -snippetsfolder: allows to specify the folder that contains the snippets
-* -outputfolder: allows to specify the folder in which the .code-snippets will be placed
