@@ -16,12 +16,12 @@ The username parameter is mandatory, is used to search inside the directory
 
     C:\Users\Developer\AppData\Local\Red Gate\SQL Prompt 9\Snippets
 
-The output will be a file named redgate.code-snippets, placed by default in
+The output will be a file named **redgate.code-snippets**, placed by default in
 
     C:\Users\Developer\AppData\Roaming\azuredatastudio\User\snippets
 
 If the folder isn't found it will be used c:\temp\
-**The script will override any previously created file with the same output name and extension**
+**The script will override any previously created file with the same name and extension**
 
 Additional parameters:
 
