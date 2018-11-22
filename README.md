@@ -14,11 +14,11 @@ Basic Usage:
 
 Additional parameters:
 
-* -snippetsfolder: allows to specify the folder that contains the snippets
-* -outputfolder: allows to specify the folder in which the .code-snippets will be placed
-* -username: allows to specify a different username
+* -username: optional, allows to specify a different username; default: current user
+* -snippetsfolder: optional, allows to specify the folder that contains the snippets; default: "C:\Users\$username\AppData\Local\Red Gate\SQL Prompt 9\Snippets"
+* -outputfolder: optional, allows to specify the folder in which the .code-snippets will be placed; default: "C:\Users\$username\AppData\Roaming\azuredatastudio\User\snippets"
 
-The username parameter is optional, the default is the username of the current user; given a username _Developer_, the scripts will search inside the directory
+Given a username _Developer_, the scripts will search inside the directory
 
     C:\Users\Developer\AppData\Local\Red Gate\SQL Prompt 9\Snippets
 
@@ -28,4 +28,3 @@ The output will be a file named **redgate.code-snippets**, placed by default in
 
 If the folder isn't found it will be used c:\temp\
 **The script will override any previously created file with the same name and extension**
-
