@@ -10,7 +10,7 @@ It seemed a waste to not use all the nice snippets of the SQL Prompt in Azure Da
 
 Basic Usage:
 
-    RedgateSnippetsToJsonAzureDataStudio.ps1
+    C:\your\folder> RedgateSnippetsToJsonAzureDataStudio.ps1
 
 Additional parameters:
 
