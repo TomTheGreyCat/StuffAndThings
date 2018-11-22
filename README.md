@@ -15,8 +15,8 @@ Basic Usage:
 Additional parameters:
 
 * -username: optional, allows to specify a different username; default: current user
-* -snippetsfolder: optional, allows to specify the folder that contains the snippets; default: "C:\Users\$username\AppData\Local\Red Gate\SQL Prompt 9\Snippets"
-* -outputfolder: optional, allows to specify the folder in which the .code-snippets will be placed; default: "C:\Users\$username\AppData\Roaming\azuredatastudio\User\snippets"
+* -snippetsfolder: optional, allows to specify the folder that contains the snippets; default: "C:\Users\\$username\AppData\Local\Red Gate\SQL Prompt 9\Snippets"
+* -outputfolder: optional, allows to specify the folder in which the .code-snippets will be placed; default: "C:\Users\\$username\AppData\Roaming\azuredatastudio\User\snippets"
 
 Given a username _Developer_, the scripts will search inside the directory
 
